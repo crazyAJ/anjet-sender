@@ -83,5 +83,27 @@
       "title": "Company Introduction",
       "description": "Our company brings years of logistics experience and a professional management team to the table. We are consistently committed to our core principles of \"Quality First, Reputation Supreme,\" providing clients with superior, reliable, and highly efficient logistics services. We are continuously optimizing our service procedures, strengthening internal management, and enhancing transportation efficiency to meet the diverse needs of our clients."
     }
+  },
+  "services": {
+    "transportation": {
+      "title": "Import and Export Transportation",
+      "titleEn": "Import and Export Transportation",
+      "description": "Provide import and export transportation services worldwide. We have established close partnerships with major airlines and shipping companies, offering customers a variety of transportation options, including air freight, sea freight, land transportation, and rail transportation. Whether it's small shipments or bulk cargo, we can provide customized transportation solutions for our clients, ensuring that goods arrive safely, quickly, and on time at their destination."
+    },
+    "customsClearance": {
+      "title": "Import and Export Customs Clearance",
+      "titleEn": "Import and Export Customs Clearance",
+      "description": "The company has a professional import and export customs clearance team, familiar with relevant domestic and international laws and regulations as well as customs procedures. We provide comprehensive import and export customs clearance services, including declaration, inspection, customs approval, and tax settlement. We assist clients in handling the customs clearance procedures for import and export goods, ensuring compliance with relevant regulatory requirements, and minimizing clearance time and costs as much as possible, ensuring that goods can be smoothly imported and exported."
+    },
+    "internationalExpress": {
+      "title": "International Express Shipment",
+      "titleEn": "International Express Shipment",
+      "description": "We have established partnerships with several internationally renowned courier companies, enabling us to provide international express services worldwide. Whether it is documents, samples, or small goods, we can offer customers fast and reliable international express shipping services. Through reasonable transportation solutions, full tracking, and high-quality customer service, we ensure that parcels are safely delivered to their destinations and timely tracking information is provided."
+    },
+    "domesticTransportation": {
+      "title": "Domestic Transportation",
+      "titleEn": "Domestic Transportation",
+      "description": "We have established extensive partnerships with multiple partners, whether for long-distance transportation between cities or delivery within cities, whether for small batches of goods or bulk materials, the company can provide flexible and diverse solutions. The company's professional team will develop the best transportation plan based on the customer's needs and the characteristics of the goods, and provide tracking services to ensure the safety and timely delivery of the goods."
+    }
   }
 }

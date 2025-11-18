@@ -16,9 +16,10 @@ export default defineConfig({
     port: 3000,
     open: true
   },
-  // 新增的配置
-  base: './',
+  // 修改这里
+  base: '/',
   build: {
+    outDir: 'dist',
     assetsDir: 'assets'
   }
 })

@@ -2,6 +2,12 @@
   "common": {
     "language": "English"
   },
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contactUs": "Contact Us"
+  },
   "home": {
     "companyName": "Beijing Anjet-Sender International Logistics Co., Ltd",
     "companyNameEn": "Beijing Anjet-Sender International Logistics Co., Ltd",
@@ -59,6 +65,9 @@
     "contactPerson": "Tony",
     "phone": "+86 13141314088",
     "aog": "AOG",
-    "copyright": "Copyright © 2022, NetEase Zhuyou(and its affiliates as applicable). All Rights Reserved."
+    "contactLabel": "Contact",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "copyright": "Copyright © 2024 Beijing Anjet-Sender International Logistics Co., Ltd. All Rights Reserved."
   }
 }

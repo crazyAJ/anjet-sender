@@ -1,6 +1,5 @@
 <template>
   <div class="home" :class="{ 'lang-en': isEnglish }">
-    <Header />
     <main>
       <!-- Hero Section -->
       <section class="hero-section">
@@ -20,7 +19,7 @@
       <section class="company-intro">
         <div class="container">
           <h2 class="section-title">{{ $t('home.companyIntro.title') }}</h2>
-          <p class="section-subtitle">{{ $t('home.companyIntro.titleEn') }}</p>
+          <p v-if="!isEnglish" class="section-subtitle">{{ $t('home.companyIntro.titleEn') }}</p>
           <div class="intro-content">
             <div class="intro-left">
               <div class="principles-header">
@@ -78,7 +77,7 @@
       <section class="advantages-section">
         <div class="container">
           <h2 class="section-title">{{ $t('home.advantages.title') }}</h2>
-          <p class="section-subtitle">{{ $t('home.advantages.titleEn') }}</p>
+          <p v-if="!isEnglish" class="section-subtitle">{{ $t('home.advantages.titleEn') }}</p>
           <div class="advantages-content">
             <div class="advantages-image">
               <img src="/images/home/containers-stack.jpg" alt="Containers Stack" />
@@ -125,15 +124,16 @@
         </div>
       </section>
     </main>
-    <Footer />
   </div>
 </template>
 
 <script setup>
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
+
+defineOptions({
+  name: 'Home'
+})
 
 const { locale } = useI18n()
 const isEnglish = computed(() => locale.value === 'en-US')
@@ -149,6 +149,7 @@ const isEnglish = computed(() => locale.value === 'en-US')
   position: relative;
   height: 500px;
   overflow: hidden;
+  margin-top: 80px;
 }
 
 .hero-image {
@@ -533,8 +534,19 @@ const isEnglish = computed(() => locale.value === 'en-US')
     height: 400px;
   }
 
+  .hero-content {
+    padding: 15px;
+  }
+
   .hero-title {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 1.3;
+    word-break: keep-all;
+  }
+
+  .lang-en .hero-title {
+    white-space: normal;
+    font-size: 20px;
   }
 
   .hero-subtitle {

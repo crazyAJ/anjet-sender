@@ -2,6 +2,12 @@
   "common": {
     "language": "简体中文"
   },
+  "nav": {
+    "home": "首页",
+    "aboutUs": "关于我们",
+    "services": "服务项目",
+    "contactUs": "联系我们"
+  },
   "home": {
     "companyName": "北京安杰信达国际物流有限公司",
     "companyNameEn": "Beijing Anjet-Sender International Logistics Co., Ltd",
@@ -53,12 +59,15 @@
     }
   },
   "footer": {
-    "aboutUs": "About us",
-    "customerServices": "Customer services",
+    "aboutUs": "关于我们",
+    "customerServices": "客户服务",
     "email": "admin@anjet-sender.com",
     "contactPerson": "Tony",
     "phone": "+86 13141314088",
     "aog": "AOG",
-    "copyright": "Copyright © 2022, NetEase Zhuyou(and its affiliates as applicable). All Rights Reserved."
+    "contactLabel": "联系人",
+    "phoneLabel": "电话",
+    "emailLabel": "邮箱",
+    "copyright": "Copyright © 2024 Beijing Anjet-Sender International Logistics Co., Ltd. All Rights Reserved."
   }
 }

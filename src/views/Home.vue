@@ -417,7 +417,7 @@ const isEnglish = computed(() => locale.value === 'en-US')
 
 /* Advantages Section */
 .advantages-section {
-  padding: 60px 0;
+  padding: 0;
   background: #fff;
 }
 
@@ -430,7 +430,7 @@ const isEnglish = computed(() => locale.value === 'en-US')
 }
 
 .lang-en .advantages-section {
-  padding: 50px 0;
+  padding: 0;
 }
 
 .advantages-content {

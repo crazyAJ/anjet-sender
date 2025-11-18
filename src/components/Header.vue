@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-content">
         <div class="logo-section">
-          <img src="/images/home/logo.jpg" alt="Logo" class="logo-img" />
+          <img src="/images/logo.jpg" alt="Logo" class="logo-img" />
         </div>
         <nav class="header-nav">
           <router-link

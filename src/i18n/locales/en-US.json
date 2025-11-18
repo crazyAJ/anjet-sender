@@ -1,0 +1,64 @@
+{
+  "common": {
+    "language": "English"
+  },
+  "home": {
+    "companyName": "Beijing Anjet-Sender International Logistics Co., Ltd",
+    "companyNameEn": "Beijing Anjet-Sender International Logistics Co., Ltd",
+    "heroSlogan": "Quality first, reputation first. Providing reliable and efficient logistics services.",
+    "mainBusiness": "Three Main Businesses: Import and Export Transportation, Import and Export Customs Clearance, International Express Shipping",
+    "mainBusinessEn": "Import and Export Transportation、Import and Export Customs Clearance、International Express Shipping",
+    "companyIntro": {
+      "title": "Company Introduction",
+      "titleEn": "Company Introduction",
+      "principles": "Professional Convenient Honest Safe",
+      "description": "We specialize in import/export transportation, customs clearance, and international express shipping. Based in Beijing with a professional team, we provide quality logistics services. We have established partnerships with global logistics companies, a complete network, and overseas warehouses to serve customers worldwide."
+    },
+    "services": {
+      "internationalExpress": {
+        "title": "International Express Shipping",
+        "titleEn": "International Express Shipping",
+        "description": "Global express network providing fast, safe, and reliable international shipping for documents, samples, and small batches."
+      },
+      "customsClearance": {
+        "title": "Import and Export Customs Clearance",
+        "titleEn": "Import and Export Customs Clearance",
+        "description": "Professional customs clearance team familiar with international regulations. We handle declaration, inspection, approval, and tax settlement for smooth import/export."
+      },
+      "transportation": {
+        "title": "Import and Export Transportation",
+        "titleEn": "Import and Export Transportation",
+        "description": "Global transportation services with partnerships across airlines and shipping companies. We offer air, sea, land, and rail options for safe and timely delivery."
+      }
+    },
+    "advantages": {
+      "title": "Competitive Advantages",
+      "titleEn": "Competitive Advantages",
+      "professional": {
+        "title": "Professional Logistics Services",
+        "subtitle": "Long-term partnerships"
+      },
+      "globalNetwork": {
+        "title": "Global Logistics Network",
+        "subtitle": "Customized solutions"
+      },
+      "teamwork": {
+        "title": "Efficient Team Collaboration",
+        "subtitle": "Compliant operations"
+      },
+      "cost": {
+        "title": "Cost Advantage",
+        "subtitle": "Competitive pricing"
+      }
+    }
+  },
+  "footer": {
+    "aboutUs": "About us",
+    "customerServices": "Customer services",
+    "email": "admin@anjet-sender.com",
+    "contactPerson": "Tony",
+    "phone": "+86 13141314088",
+    "aog": "AOG",
+    "copyright": "Copyright © 2022, NetEase Zhuyou(and its affiliates as applicable). All Rights Reserved."
+  }
+}

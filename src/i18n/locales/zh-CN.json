@@ -1,0 +1,64 @@
+{
+  "common": {
+    "language": "简体中文"
+  },
+  "home": {
+    "companyName": "北京安杰信达国际物流有限公司",
+    "companyNameEn": "Beijing Anjet-Sender International Logistics Co., Ltd",
+    "heroSlogan": "始终坚持质量第一、信誉至上的原则,为客户提供优质、可靠、高效的物流服务。",
+    "mainBusiness": "三大主营业务:进出口运输、进出口清关、国际快递发运",
+    "mainBusinessEn": "Import and Export Transportation、Import and Export Customs Clearance、International Express Shipping",
+    "companyIntro": {
+      "title": "公司介绍",
+      "titleEn": "Company Introduction",
+      "principles": "专业 便捷 诚信 安全",
+      "description": "公司专业从事进出口运输、进出口清关、国际快递发运、国内运输等业务。公司总部位于北京,拥有一支专业的物流团队,以客户至上为服务理念,致力于为客户提供高质量的物流服务。公司与多家国内外物流公司建立了长期合作关系,拥有完善的物流网络和丰富的物流经验。公司还拥有海外仓库和代理,可以为客户提供全方位的物流服务。"
+    },
+    "services": {
+      "internationalExpress": {
+        "title": "国际快递发运",
+        "titleEn": "International Express Shipping",
+        "description": "公司拥有全球范围内的快递网络,可以为客户提供快速、安全、可靠的国际快递服务。无论是文件、样品还是小批量货物,我们都能为客户提供最优质的快递服务。"
+      },
+      "customsClearance": {
+        "title": "进出口清关",
+        "titleEn": "Import and Export Customs Clearance",
+        "description": "公司拥有专业的进出口清关团队,熟悉国内外的相关法律法规和报关手续。我们提供全面的进出口清关服务,包括报关、报检、海关审批、税费结算等环节,确保货物能够顺利进出口。"
+      },
+      "transportation": {
+        "title": "进出口运输",
+        "titleEn": "Import and Export Transportation",
+        "description": "公司提供全球范围内的进出口运输服务。我们与各大航空公司和海运公司建立了紧密的合作关系,可以为客户提供多种运输方式选择,包括航空运输、海运运输、陆运和铁路运输等,确保货物安全、快速、准时地到达目的地。"
+      }
+    },
+    "advantages": {
+      "title": "企业优势",
+      "titleEn": "Competitive Advantages",
+      "professional": {
+        "title": "专业的物流服务",
+        "subtitle": "continued cooperation"
+      },
+      "globalNetwork": {
+        "title": "全球物流网络",
+        "subtitle": "Provide customized services according to customer needs"
+      },
+      "teamwork": {
+        "title": "高效的团队配合",
+        "subtitle": "Legal business and operating regulations"
+      },
+      "cost": {
+        "title": "费用优势",
+        "subtitle": "Peak season occupation"
+      }
+    }
+  },
+  "footer": {
+    "aboutUs": "About us",
+    "customerServices": "Customer services",
+    "email": "admin@anjet-sender.com",
+    "contactPerson": "Tony",
+    "phone": "+86 13141314088",
+    "aog": "AOG",
+    "copyright": "Copyright © 2022, NetEase Zhuyou(and its affiliates as applicable). All Rights Reserved."
+  }
+}

@@ -15,5 +15,10 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
+  },
+  // 新增的配置
+  base: './',
+  build: {
+    assetsDir: 'assets'
   }
 })

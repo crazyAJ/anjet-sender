@@ -109,12 +109,12 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 20px 0 12px;
+    padding: 6px;
   }
 
   .footer-contact {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 0;
     margin-bottom: 15px;
     padding-right: 0;
   }
@@ -126,7 +126,7 @@
 
   .contact-item {
     font-size: 13px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
   }
 
   .footer-copyright {

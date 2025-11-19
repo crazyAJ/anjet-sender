@@ -1,7 +1,4 @@
 {
-  "common": {
-    "language": "简体中文"
-  },
   "nav": {
     "home": "首页",
     "aboutUs": "关于我们",
@@ -12,8 +9,6 @@
     "companyName": "北京安杰信达国际物流有限公司",
     "companyNameEn": "Beijing Anjet-Sender International Logistics Co., Ltd",
     "heroSlogan": "始终坚持质量第一、信誉至上的原则,为客户提供优质、可靠、高效的物流服务。",
-    "mainBusiness": "三大主营业务:进出口运输、进出口清关、国际快递发运",
-    "mainBusinessEn": "Import and Export Transportation、Import and Export Customs Clearance、International Express Shipping",
     "companyIntro": {
       "title": "公司介绍",
       "titleEn": "Company Introduction",
@@ -59,12 +54,9 @@
     }
   },
   "footer": {
-    "aboutUs": "关于我们",
-    "customerServices": "客户服务",
-    "email": "admin@anjet-sender.com",
+    "email": "admin{'@'}anjet-sender.com",
     "contactPerson": "Tony",
     "phone": "+86 13141314088",
-    "aog": "AOG",
     "contactLabel": "联系人",
     "phoneLabel": "电话",
     "emailLabel": "邮箱",
@@ -76,11 +68,9 @@
       "titleEn": "Import and Export Transportation、Import and Export Customs Clearance、International Express Shipping"
     },
     "services": {
-      "title": "服务介绍",
       "description": "提供的进出口运输服务包括：空运、海运、陆运等多种方式，根据客户需求进行灵活组合，确保货物安全、快速、准时到达目的地。我们的清关服务专业、高效，涉及各类证照、税收等问题，帮助客户顺利通过所有海关程序。我们的国际快递服务覆盖全球多个国家和地区，快捷安全，满足客户不同的快递需求。"
     },
     "company": {
-      "title": "公司介绍",
       "description": "公司拥有多年物流服务经验和专业管理团队，我们始终坚持质量第一、信誉至上的原则，为客户提供优质、可靠、高效的物流服务。我们将不断优化服务流程，加强内部管理，提高运输效率，以满足不同客户的需求。"
     }
   },

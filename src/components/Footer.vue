@@ -4,28 +4,40 @@
       <div class="footer-contact">
         <div class="contact-left">
           <div class="contact-item">
-            <span class="contact-label">Contact:</span>
-            <span class="contact-value">Tony</span>
+            <span class="contact-label">{{ $t('footer.contactLabel') }}:</span>
+            <span class="contact-value">{{ $t('footer.contactPerson') }}</span>
           </div>
         </div>
         <div class="contact-right">
           <div class="contact-item">
-            <span class="contact-label">Phone:</span>
-            <a href="tel:+8613141314088" class="contact-value link">+86 13141314088</a>
+            <span class="contact-label">{{ $t('footer.phoneLabel') }}:</span>
+            <a :href="`tel:${phoneForTel}`" class="contact-value link">{{ $t('footer.phone') }}</a>
           </div>
           <div class="contact-item">
-            <span class="contact-label">Email:</span>
-            <a href="mailto:admin@anjet-sender.com" class="contact-value link">admin@anjet-sender.com</a>
+            <span class="contact-label">{{ $t('footer.emailLabel') }}:</span>
+            <a :href="`mailto:${$t('footer.email')}`" class="contact-value link">{{ $t('footer.email') }}</a>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
-        <p>Copyright © 2024 Beijing Anjet-Sender International Logistics Co., Ltd. All Rights Reserved.</p>
+        <p>{{ $t('footer.copyright') }}</p>
       </div>
     </div>
   </footer>
 </template>
 
+<script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+// 获取电话号码，移除空格用于tel:链接
+const phoneForTel = computed(() => {
+  const phone = t('footer.phone')
+  return phone ? phone.replace(/\s+/g, '') : ''
+})
+</script>
 
 <style scoped>
 .footer {

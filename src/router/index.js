@@ -29,7 +29,16 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  // 滚动行为：每次导航时滚动到顶部
+  scrollBehavior(to, from, savedPosition) {
+    // 如果有保存的位置（浏览器前进/后退），则使用保存的位置
+    if (savedPosition) {
+      return savedPosition
+    }
+    // 否则立即滚动到顶部
+    return { top: 0 }
+  }
 })
 
 // 全局后置守卫：确保离开 Contact 页面时移除 body 类名

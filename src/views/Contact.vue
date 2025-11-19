@@ -14,14 +14,14 @@
 
               <!-- Action Buttons -->
               <div class="action-buttons">
-                <a :href="`tel:${footerInfo.phone}`" class="contact-button phone-button">
+                <a :href="`tel:${phoneForTel}`" class="contact-button phone-button">
                   <el-icon class="button-icon"><Phone /></el-icon>
                   <div class="button-text-wrapper">
                     <span v-if="!isEnglish" class="button-text">{{ $t('contact.phoneButton') }}</span>
                     <span v-if="isEnglish" class="button-text">{{ $t('contact.phoneButtonEn') }}</span>
                   </div>
                 </a>
-                <a :href="`mailto:${footerInfo.email}`" class="contact-button email-button">
+                <a :href="`mailto:${$t('footer.email')}`" class="contact-button email-button">
                   <el-icon class="button-icon"><Message /></el-icon>
                   <div class="button-text-wrapper">
                     <span v-if="!isEnglish" class="button-text">{{ $t('contact.emailButton') }}</span>
@@ -51,10 +51,11 @@ const { locale, t } = useI18n()
 const route = useRoute()
 const isEnglish = computed(() => locale.value === 'en-US')
 
-const footerInfo = computed(() => ({
-  phone: t('footer.phone'),
-  email: t('footer.email')
-}))
+// 获取电话号码，移除空格用于tel:链接
+const phoneForTel = computed(() => {
+  const phone = t('footer.phone')
+  return phone ? phone.replace(/\s+/g, '') : ''
+})
 
 // 移动端 Contact 页面时，给 body 添加类名以覆盖页脚样式
 const updateBodyClass = () => {
@@ -303,17 +304,6 @@ onUnmounted(() => {
 .lang-en .button-text {
   font-size: 13px;
   transform: translateY(0);
-}
-
-.button-text-en {
-  font-size: 11px;
-  opacity: 0.9;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.lang-en .button-text-en {
-  font-size: 10px;
 }
 
 /* Mobile Styles */

@@ -23,9 +23,27 @@ server {
     # 字符编码
     charset utf-8;
     
+    # 包含MIME类型定义（确保JavaScript文件正确识别）
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+    
     # 日志配置
     access_log /var/log/nginx/anjet-sender-access.log;
     error_log /var/log/nginx/anjet-sender-error.log;
+    
+    # JavaScript文件特殊处理（确保正确的MIME类型）
+    # 注意：此location必须在location /之前，以确保优先匹配
+    location ~* \.js$ {
+        # 明确设置JavaScript文件的MIME类型
+        # 如果mime.types未正确配置，default_type会生效
+        default_type application/javascript;
+        # 缓存 30 天
+        expires 30d;
+        # 添加缓存控制头
+        add_header Cache-Control "public, immutable";
+        # 启用 gzip 压缩
+        gzip_static on;
+    }
     
     # 主配置：处理所有请求
     location / {
@@ -34,8 +52,8 @@ server {
         try_files $uri $uri/ /index.html;
     }
     
-    # 静态资源缓存配置（CSS、JS、图片等）
-    location ~* \.(jpg|jpeg|png|gif|ico|css|js|svg|woff|woff2|ttf|eot)$ {
+    # 静态资源缓存配置（CSS、图片等，JS已单独处理）
+    location ~* \.(jpg|jpeg|png|gif|ico|css|svg|woff|woff2|ttf|eot)$ {
         # 缓存 30 天
         expires 30d;
         # 添加缓存控制头

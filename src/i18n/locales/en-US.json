@@ -1,7 +1,4 @@
 {
-  "common": {
-    "language": "English"
-  },
   "nav": {
     "home": "Home",
     "aboutUs": "About Us",
@@ -12,8 +9,6 @@
     "companyName": "Beijing Anjet-Sender International Logistics Co., Ltd",
     "companyNameEn": "Beijing Anjet-Sender International Logistics Co., Ltd",
     "heroSlogan": "Quality first, reputation first. Providing reliable and efficient logistics services.",
-    "mainBusiness": "Three Main Businesses: Import and Export Transportation, Import and Export Customs Clearance, International Express Shipping",
-    "mainBusinessEn": "Import and Export Transportation、Import and Export Customs Clearance、International Express Shipping",
     "companyIntro": {
       "title": "Company Introduction",
       "titleEn": "Company Introduction",
@@ -59,12 +54,9 @@
     }
   },
   "footer": {
-    "aboutUs": "About us",
-    "customerServices": "Customer services",
-    "email": "admin@anjet-sender.com",
+    "email": "admin{'@'}anjet-sender.com",
     "contactPerson": "Tony",
     "phone": "+86 13141314088",
-    "aog": "AOG",
     "contactLabel": "Contact",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
@@ -76,11 +68,9 @@
       "titleEn": "Import and Export Transportation、Import and Export Customs Clearance、International Express Shipping"
     },
     "services": {
-      "title": "Our Services",
       "description": "We deliver end-to-end import and export transportation solutions via air, sea, and road. We tailor these options to create a flexible logistics chain that guarantees the secure, rapid, and punctual delivery of your cargo. Our expert team ensures seamless customs clearance by proactively managing all documentation and tax regulations, navigating the complexities on your behalf for a hassle-free experience. With a global express delivery network, we connect you to countless countries and territories. Rely on us for speed and reliability to fulfill all your international shipping needs."
     },
     "company": {
-      "title": "Company Introduction",
       "description": "Our company brings years of logistics experience and a professional management team to the table. We are consistently committed to our core principles of \"Quality First, Reputation Supreme,\" providing clients with superior, reliable, and highly efficient logistics services. We are continuously optimizing our service procedures, strengthening internal management, and enhancing transportation efficiency to meet the diverse needs of our clients."
     }
   },

@@ -90,4 +90,15 @@ img {
   #app::-webkit-scrollbar {
     display: none;
   }
+
+  /* 移动端禁止图片点击查看 */
+  img {
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: none;
+  }
 }

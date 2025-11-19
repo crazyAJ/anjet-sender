@@ -4,7 +4,7 @@
       <!-- Hero Section -->
       <section class="hero-section">
         <div class="hero-image">
-          <img src="/images/services/hero-ship.jpeg" alt="Hero Ship" />
+          <img src="/images/services/hero-ship.jpeg" />
           <div class="hero-overlay">
             <div class="hero-content">
               <h1 class="hero-title">{{ $t('home.companyName') }}</h1>
@@ -31,7 +31,7 @@
             <!-- Service 1: Image -->
             <div class="grid-item grid-image-1">
               <div class="image-wrapper">
-                <img src="/images/services/port-containers.jpg" alt="Port Containers" />
+                <img src="/images/services/port-containers.jpg" />
               </div>
             </div>
 
@@ -52,14 +52,14 @@
             <!-- Service 2: Image -->
             <div class="grid-item grid-image-2">
               <div class="image-wrapper">
-                <img src="/images/services/warehouse-containers.png" alt="Warehouse Containers" />
+                <img src="/images/services/warehouse-containers.png" />
               </div>
             </div>
 
             <!-- Service 3: Image -->
             <div class="grid-item grid-image-3">
               <div class="image-wrapper">
-                <img src="/images/services/container-containers.png" alt="Container Containers" />
+                <img src="/images/services/container-containers.png" />
               </div>
             </div>
 
@@ -80,7 +80,7 @@
             <!-- Service 4: Image -->
             <div class="grid-item grid-image-4">
               <div class="image-wrapper">
-                <img src="/images/services/bus-containers.png" alt="Bus Containers" />
+                <img src="/images/services/bus-containers.png" />
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@
             <!-- Service 1: Image -->
             <div class="grid-item grid-image-1">
               <div class="image-wrapper">
-                <img src="/images/services/port-containers.jpg" alt="Port Containers" />
+                <img src="/images/services/port-containers.jpg" />
               </div>
             </div>
 
@@ -104,7 +104,7 @@
             <!-- Service 2: Image -->
             <div class="grid-item grid-image-2">
               <div class="image-wrapper">
-                <img src="/images/services/warehouse-containers.png" alt="Warehouse Containers" />
+                <img src="/images/services/warehouse-containers.png" />
               </div>
             </div>
 
@@ -118,7 +118,7 @@
             <!-- Service 3: Image -->
             <div class="grid-item grid-image-3">
               <div class="image-wrapper">
-                <img src="/images/services/container-containers.png" alt="Container Containers" />
+                <img src="/images/services/container-containers.png" />
               </div>
             </div>
 
@@ -132,7 +132,7 @@
             <!-- Service 4: Image -->
             <div class="grid-item grid-image-4">
               <div class="image-wrapper">
-                <img src="/images/services/bus-containers.png" alt="Bus Containers" />
+                <img src="/images/services/bus-containers.png" />
               </div>
             </div>
 

@@ -4,7 +4,7 @@
       <!-- Hero Section -->
       <section class="hero-section">
         <div class="hero-image">
-          <img src="/images/home/hero-airplane.png" alt="Cargo Ship" />
+          <img src="/images/home/hero-airplane.png" />
           <div class="hero-overlay">
             <div class="hero-content">
               <h1 class="hero-title">{{ $t('home.companyName') }}</h1>
@@ -23,13 +23,13 @@
           <div class="intro-content">
             <div class="intro-left">
               <div class="principles-header">
-                <img src="/images/home/icon-box.png" alt="Box Icon" class="icon-img" />
+                <img src="/images/home/icon-box.png" class="icon-img" />
                 <h3 class="principles-title">{{ $t('home.companyIntro.principles') }}</h3>
               </div>
               <p class="intro-text">{{ $t('home.companyIntro.description') }}</p>
             </div>
             <div class="intro-right">
-              <img src="/images/home/ship-containers.jpg" alt="Shipping Containers" />
+              <img src="/images/home/ship-containers.jpg" />
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
           <div class="services-grid">
             <div class="service-card">
               <div class="service-header">
-                <img src="/images/home/icon-express.png" alt="Express Icon" class="service-icon" />
+                <img src="/images/home/icon-express.png" class="service-icon" />
                 <div class="service-title-group">
                   <h3>{{ $t('home.services.internationalExpress.title') }}</h3>
                   <p v-if="!isEnglish" class="service-subtitle">{{ $t('home.services.internationalExpress.titleEn') }}</p>
@@ -51,7 +51,7 @@
             </div>
             <div class="service-card">
               <div class="service-header">
-                <img src="/images/home/icon-customs.png" alt="Customs Icon" class="service-icon" />
+                <img src="/images/home/icon-customs.png" class="service-icon" />
                 <div class="service-title-group">
                   <h3>{{ $t('home.services.customsClearance.title') }}</h3>
                   <p v-if="!isEnglish" class="service-subtitle">{{ $t('home.services.customsClearance.titleEn') }}</p>
@@ -61,7 +61,7 @@
             </div>
             <div class="service-card">
               <div class="service-header">
-                <img src="/images/home/icon-transport.png" alt="Transport Icon" class="service-icon" />
+                <img src="/images/home/icon-transport.png" class="service-icon" />
                 <div class="service-title-group">
                   <h3>{{ $t('home.services.transportation.title') }}</h3>
                   <p v-if="!isEnglish" class="service-subtitle">{{ $t('home.services.transportation.titleEn') }}</p>
@@ -80,7 +80,7 @@
           <p v-if="!isEnglish" class="section-subtitle">{{ $t('home.advantages.titleEn') }}</p>
           <div class="advantages-content">
             <div class="advantages-image">
-              <img src="/images/home/containers-stack.jpg" alt="Containers Stack" />
+              <img src="/images/home/containers-stack.jpg" />
             </div>
             <div class="advantages-grid">
               <div class="advantage-card">
@@ -89,7 +89,7 @@
                     <h3>{{ $t('home.advantages.professional.title') }}</h3>
                     <p class="advantage-subtitle">{{ $t('home.advantages.professional.subtitle') }}</p>
                   </div>
-                  <img src="/images/home/icon-professional.png" alt="Professional Icon" class="advantage-icon" />
+                  <img src="/images/home/icon-professional.png" class="advantage-icon" />
                 </div>
               </div>
               <div class="advantage-card">
@@ -98,7 +98,7 @@
                     <h3>{{ $t('home.advantages.globalNetwork.title') }}</h3>
                     <p class="advantage-subtitle">{{ $t('home.advantages.globalNetwork.subtitle') }}</p>
                   </div>
-                  <img src="/images/home/icon-network.png" alt="Network Icon" class="advantage-icon" />
+                  <img src="/images/home/icon-network.png" class="advantage-icon" />
                 </div>
               </div>
               <div class="advantage-card">
@@ -107,7 +107,7 @@
                     <h3>{{ $t('home.advantages.teamwork.title') }}</h3>
                     <p class="advantage-subtitle">{{ $t('home.advantages.teamwork.subtitle') }}</p>
                   </div>
-                  <img src="/images/home/icon-teamwork.png" alt="Teamwork Icon" class="advantage-icon" />
+                  <img src="/images/home/icon-teamwork.png" class="advantage-icon" />
                 </div>
               </div>
               <div class="advantage-card">
@@ -116,7 +116,7 @@
                     <h3>{{ $t('home.advantages.cost.title') }}</h3>
                     <p class="advantage-subtitle">{{ $t('home.advantages.cost.subtitle') }}</p>
                   </div>
-                  <img src="/images/home/icon-cost.png" alt="Cost Icon" class="advantage-icon" />
+                  <img src="/images/home/icon-cost.png" class="advantage-icon" />
                 </div>
               </div>
             </div>

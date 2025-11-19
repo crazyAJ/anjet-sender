@@ -297,13 +297,11 @@ onUnmounted(() => {
   font-weight: 600;
   line-height: 1.2;
   display: inline-block;
-  transform: translateY(1px);
   white-space: nowrap;
 }
 
 .lang-en .button-text {
   font-size: 13px;
-  transform: translateY(0);
 }
 
 /* Mobile Styles */

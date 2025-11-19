@@ -4,7 +4,7 @@
       <!-- Hero Section -->
       <section class="hero-section">
         <div class="hero-image">
-          <img src="/images/about/hero-ship.png" alt="Hero Ship" />
+          <img src="/images/about/hero-ship.png" />
           <div class="hero-overlay">
             <div class="hero-content">
               <h1 class="hero-title">{{ $t('home.companyName') }}</h1>
@@ -31,7 +31,7 @@
             <!-- Top Left: Image -->
             <div class="grid-item grid-image-top-left">
               <div class="image-wrapper">
-                <img src="/images/about/ship-containers.png" alt="Ship Containers" />
+                <img src="/images/about/ship-containers.png" />
               </div>
             </div>
 
@@ -48,7 +48,7 @@
             <!-- Bottom Right: Image -->
             <div class="grid-item grid-image-bottom-right">
               <div class="image-wrapper">
-                <img src="/images/about/package-containers.png" alt="Package Containers" />
+                <img src="/images/about/package-containers.png" />
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@
             <!-- Image 1 -->
             <div class="grid-item grid-image-top-left">
               <div class="image-wrapper">
-                <img src="/images/about/ship-containers.png" alt="Ship Containers" />
+                <img src="/images/about/ship-containers.png" />
               </div>
             </div>
 
@@ -70,7 +70,7 @@
             <!-- Image 2 -->
             <div class="grid-item grid-image-bottom-right">
               <div class="image-wrapper">
-                <img src="/images/about/package-containers.png" alt="Package Containers" />
+                <img src="/images/about/package-containers.png" />
               </div>
             </div>
 

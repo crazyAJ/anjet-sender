@@ -256,28 +256,14 @@ onUnmounted(() => {
   transition: left 0.5s ease;
 }
 
-.contact-button:hover::before {
-  left: 100%;
-}
-
 .phone-button {
   background: linear-gradient(135deg, #67c23a 0%, #85ce61 100%);
   color: #fff;
 }
 
-.phone-button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(103, 194, 58, 0.4);
-}
-
 .email-button {
   background: linear-gradient(135deg, #409eff 0%, #66b1ff 100%);
   color: #fff;
-}
-
-.email-button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(64, 158, 255, 0.4);
 }
 
 .button-icon {
@@ -302,6 +288,27 @@ onUnmounted(() => {
 
 .lang-en .button-text {
   font-size: 13px;
+}
+
+.contact-button:focus-visible {
+  outline: 2px solid rgba(24, 144, 255, 0.45);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .contact-button:hover::before {
+    left: 100%;
+  }
+
+  .phone-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 32px rgba(103, 194, 58, 0.4);
+  }
+
+  .email-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 32px rgba(64, 158, 255, 0.4);
+  }
 }
 
 /* Mobile Styles */
